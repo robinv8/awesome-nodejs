@@ -2,175 +2,175 @@
 
 [<img src="https://cdn.rawgit.com/gilbarbara/logos/e7b1dc2666c3dabe6c1276abd0a767b6ebd6af43/logos/nodejs-icon.svg" align="right" width="70">](https://nodejs.org)
 
-> A curated list of delightful Node.js [packages](#packages) and [resources](#resources).
+>一个令人愉快的Node.js[包](#包)和[资源](#资源)的策划列表
 
 
-## Contents
+## 目录
 
-- [Packages](#packages)
-	- [Mad science](#mad-science)
-	- [Command-line apps](#command-line-apps)
-	- [Functional programming](#functional-programming)
-	- [HTTP](#http)
-	- [Debugging / Profiling](#debugging--profiling)
-	- [Logging](#logging)
-	- [Command-line utilities](#command-line-utilities)
-	- [Build tools](#build-tools)
-	- [Hardware](#hardware)
-	- [Templating](#templating)
-	- [Web frameworks](#web-frameworks)
-	- [Documentation](#documentation)
-	- [Filesystem](#filesystem)
-	- [Control flow](#control-flow)
-	- [Streams](#streams)
-	- [Real-time](#real-time)
-	- [Image](#image)
-	- [Text](#text)
-	- [Number](#number)
+- [包](#包)
+	- [奇异科技](#奇异科技)
+	- [命令行程序](#command-line-apps)
+	- [函数式编程](#函数式编程)
+	- [http](#http)
+	- [调试/分析](#调试/分析)
+	- [日志](#日志)
+	- [命令行工具](#命令行工具)
+	- [构建工具](#构建工具)
+	- [连接硬件](#连接硬件)
+	- [模板](#模板)
+	- [web框架](#web框架)
+	- [文档](#文档)
+	- [文件系统](#文件系统)
+	- [控制流](#控制流)
+	- [数据流](#数据流)
+	- [实时工具](#实时工具)
+	- [图像](#图像)
+	- [文本](#文本)
+	- [nunber](#number)
 	- [Math](#math)
 	- [Date](#date)
-	- [URL](#url)
-	- [Data validation](#data-validation)
-	- [Parsing](#parsing)
-	- [Humanize](#humanize)
-	- [Compression](#compression)
-	- [Network](#network)
-	- [Database](#database)
-	- [Testing](#testing)
-	- [Security](#security)
-	- [Benchmarking](#benchmarking)
-	- [Minifiers](#minifiers)
-	- [Authentication](#authentication)
-	- [Email](#email)
-	- [Job queues](#job-queues)
-	- [Node.js management](#nodejs-management)
-	- [Polyfills](#polyfills)
-	- [Natural language processing](#natural-language-processing)
-	- [Process management](#process-management)
-	- [Automation](#automation)
-	- [AST](#ast)
-	- [Static site generators](#static-site-generators)
-	- [Content management systems](#content-management-systems)
-	- [Forum](#forum)
-	- [Blogging](#blogging)
-	- [Weird](#weird)
-	- [Miscellaneous](#miscellaneous)
-- [Resources](#resources)
-	- [Tutorials](#tutorials)
-	- [Discovery](#discovery)
-	- [Articles](#articles)
-	- [Newsletters](#newsletters)
-	- [Videos](#videos)
-	- [Podcasts](#podcasts)
-	- [Books](#books)
-	- [Blogs](#blogs)
-	- [Courses](#courses)
-	- [Cheatsheets](#cheatsheets)
-	- [Tools](#tools)
-	- [Community](#community)
-	- [Miscellaneous](#miscellaneous)
+	- [超链接](#超链接)
+	- [数据验证](#数据验证)
+	- [语法分析](语法分析)
+	- [个性化功能](#个性化功能)
+	- [压缩](#压缩)
+	- [网络](#网络)
+	- [数据库](#数据库)
+	- [测试](#测试)
+	- [安全](#安全)
+	- [标杆](#标杆)
+	- [优化](#优化)
+	- [身份验证](#身份验证)
+	- [邮箱](#邮箱)
+	- [作业队列](#作业队列)
+	- [Node.js管理](#Node.js管理)
+	- [腻子](#腻子)
+	- [自然语言处理](#自然语言处理)
+	- [进程管理](#进程管理)
+	- [自动化](#自动化)
+	- [抽象语法树](#抽象语法树)
+	- [静态网站生成器](#静态网站生成器)
+	- [CMS内容管理系统](#CMS内容管理系统)
+	- [论坛](#论坛)
+	- [博客](#博客)
+	- [小玩意](#小玩意)
+	- [其他](#其他)
+- [资源](#资源)
+	- [教程](#教程)
+	- [包探测](#包探测)
+	- [文章](#文章)
+	- [简报](#简报)
+	- [视频](#视频)
+	- [广播](#广播)
+	- [书籍](#书籍)
+	- [博客](#博客)
+	- [课程](#课程)
+	- [速查表](#速查表)
+	- [工具](#工具)
+	- [社区](#社区)
+	- [其他](#其他)
 
 
-## Packages
+## 包
 
-### Mad science
+### 命令行程序
 
-- [webtorrent](https://github.com/feross/webtorrent) - Streaming torrent client for Node.js and the browser.
-- [peerflix](https://github.com/mafintosh/peerflix) - Streaming torrent client.
-- [dat](http://dat-data.com) - Real-time replication and versioning for data sets.
-- [ipfs](https://github.com/ipfs/js-ipfs) - Distributed file system that seeks to connect all computing devices with the same system of files.
-- [GitTorrent](https://github.com/cjb/GitTorrent) - Peer-to-peer network of Git repositories being shared over BitTorrent.
-- [stackgl](http://stack.gl) - Open software ecosystem for WebGL, built on top of browserify and npm.
-- [peerwiki](https://github.com/mafintosh/peerwiki) - All of Wikipedia on BitTorrent.
+- [webtorrent](https://github.com/feross/webtorrent) - 用于Node.js和浏览器的流式浏览器。
+- [peerflix](https://github.com/mafintosh/peerflix) - 流式客户端.
+- [dat](http://dat-data.com) - 数据集的实时复制和版本控制。
+- [ipfs](https://github.com/ipfs/js-ipfs) - 分布式文件系统，旨在使用相同的文件系统连接所有计算设备。
+- [GitTorrent](https://github.com/cjb/GitTorrent) - Git存储库的对等网络通过BitTorrent共享。
+- [stackgl](http://stack.gl) - 在browserify和npm的基础之上，为WebGL开放软件生。
+- [peerwiki](https://github.com/mafintosh/peerwiki) - 所有的维基百科.
 - [peercast](https://github.com/mafintosh/peercast) - Stream a torrent video to Chromecast.
-- [BitcoinJS](http://bitcoinjs.org) - Clean, readable, proven Bitcoin library.
-- [Bitcore](https://bitcore.io) - Pure and powerful Bitcoin library.
-- [PDFKit](http://pdfkit.org) - PDF generation library.
-- [turf](https://github.com/Turfjs/turf) - Modular geospatial processing and analysis engine.
-- [webcat](https://github.com/mafintosh/webcat) - p2p pipe across the web using WebRTC that uses your GitHub private/public key for authentication.
-- [NodeOS](http://node-os.com) - The first operating system powered by npm.
-- [limdu](https://github.com/erelsgl/limdu) - Machine-learning framework.
-- [Cytoscape.js](http://js.cytoscape.org) - Graph theory (a.k.a. network) modeling and analysis.
-- [kad](https://github.com/kadtools/kad) - Kademlia distributed hash table.
-- [seedshot](https://github.com/twobucks/seedshot) - Temporary P2P screenshot sharing from your browser.
-- [js-git](https://github.com/creationix/js-git) - JavaScript implementation of Git.
-- [skale](https://github.com/skale-me/skale-engine) - High performance distributed data processing engine.
+- [BitcoinJS](http://bitcoinjs.org) - 清洁，可读，成熟的比特币库。
+- [Bitcore](https://bitcore.io) - 纯粹而强大的比特币库。
+- [PDFKit](http://pdfkit.org) - PDF生成库。
+- [turf](https://github.com/Turfjs/turf) - 模块化地理空间处理和分析引擎。
+- [webcat](https://github.com/mafintosh/webcat) - 使用WebRTC在web上使用您的GitHub私有/公钥进行身份验证。
+- [NodeOS](http://node-os.com) -一个有node提供的操作系统。
+- [limdu](https://github.com/erelsgl/limdu) - 深度学习框架。
+- [Cytoscape.js](http://js.cytoscape.org) - 图论(a.k.a.网络)建模与分析。
+- [kad](https://github.com/kadtools/kad) - Kademlia分布哈希表。
+- [seedshot](https://github.com/twobucks/seedshot) - 从你浏览器上分享临时的p2p截屏。
+- [js-git](https://github.com/creationix/js-git) - javascript实现的git。
+- [skale](https://github.com/skale-me/skale-engine) - 高性能分布式数据处理引擎。
 
 
-### Command-line apps
+### 命令行程序
 
-- [np](https://github.com/sindresorhus/np) - Better `npm publish`.
-- [trash](https://github.com/sindresorhus/trash) - Safer alternative to `rm`.
-- [npm-name](https://github.com/sindresorhus/npm-name) - Check whether a package name is available on npm.
-- [speed-test](https://github.com/sindresorhus/speed-test) - Test your internet connection speed and ping.
-- [emoj](https://github.com/sindresorhus/emoj) - Find relevant emoji from text on the command-line.
-- [pageres](https://github.com/sindresorhus/pageres) - Capture website screenshots.
-- [cpy](https://github.com/sindresorhus/cpy) - Copy files.
-- [vtop](https://github.com/MrRio/vtop) - More better top, with nice charts.
-- [empty-trash](https://github.com/sindresorhus/empty-trash) - Empty the trash.
-- [is-up](https://github.com/sindresorhus/is-up) - Check whether a website is up or down.
-- [is-online](https://github.com/sindresorhus/is-online) - Check if the internet connection is up.
-- [public-ip](https://github.com/sindresorhus/public-ip) - Get your public IP address.
-- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - Copy & paste on the terminal.
-- [ttystudio](https://github.com/chjj/ttystudio) - Record your terminal and compile it to a GIF or APNG without any external dependencies, bash scripts, gif concatenation, etc.
-- [XO](https://github.com/sindresorhus/xo) - Enforce strict code style using the JavaScript happiness style.
-- [Standard](https://github.com/feross/standard) - JavaScript Standard Style — One style to rule them all.
-- [ESLint](http://eslint.org) - The pluggable linting utility for JavaScript.
-- [dev-time](https://github.com/samverschueren/dev-time-cli) - Get the current local time of a GitHub user.
-- [David](https://github.com/alanshaw/david) - Tells you when your package npm dependencies are out of date.
-- [http-server](https://github.com/indexzero/http-server) - Simple, zero-config command-line HTTP server.
-- [Live Server](https://github.com/tapio/live-server) - Development HTTP-server with livereload capability.
-- [bcat](https://github.com/kessler/node-bcat) - Pipe command output to web browsers.
-- [normit](https://github.com/pawurb/normit) - Google Translate with speech synthesis in your terminal.
-- [slap](https://github.com/slap-editor/slap) - Sublime-like terminal-based text editor.
-- [jsinspect](https://github.com/danielstjules/jsinspect) - Detect copy-pasted and structurally similar code.
-- [esformatter](https://github.com/millermedeiros/esformatter) - JavaScript code beautifier/formatter.
-- [fkill](https://github.com/sindresorhus/fkill-cli) - Fabulously kill processes. Cross-platform.
-- [pjs](https://github.com/danielstjules/pjs) - Pipeable JavaScript. Quickly filter, map, and reduce from the terminal.
-- [license-checker](https://github.com/davglass/license-checker) - Check licenses of your app's dependencies.
-- [browser-run](https://github.com/juliangruber/browser-run) - Easily run code in a browser environment.
-- [tmpin](https://github.com/sindresorhus/tmpin) - Adds stdin support to any CLI app that accepts file input.
-- [modhelp](https://github.com/runvnc/modhelp) - Syntax-highlighted module READMEs in terminal with ANSI-friendly pager.
-- [wifi-password](https://github.com/kevva/wifi-password-cli) - Get the current wifi password.
-- [wallpaper](https://github.com/sindresorhus/wallpaper) - Change the desktop wallpaper.
-- [brightness](https://github.com/kevva/brightness-cli) - Change the screen brightness.
-- [torrent](https://github.com/maxogden/torrent) - Download torrents.
-- [tfa](https://github.com/jasnell/tfa) - Two-factor authentication client.
-- [rtail](https://github.com/kilianc/rtail) - Terminal output to the browser in seconds, using UNIX pipes.
-- [kill-tabs](https://github.com/sindresorhus/kill-tabs) - Kill all Chrome tabs to improve performance, decrease battery usage, and save memory.
-- [alex](https://github.com/wooorm/alex) - Catch insensitive, inconsiderate writing.
-- [vantage](https://github.com/dthree/vantage) - Distributed, realtime CLI for your live app.
-- [pen](https://github.com/noraesae/pen) - Live Markdown preview in the browser from your favorite editor.
-- [subdownloader](https://github.com/beatfreaker/subdownloader) - Subtitle downloader for movies and TV series.
-- [dark-mode](https://github.com/sindresorhus/dark-mode) - Toggle the macOS Dark Mode.
-- [iponmap](https://github.com/nogizhopaboroda/iponmap) - IP location finder.
-- [Jsome](https://github.com/Javascipt/Jsome) - Pretty prints JSON with configurable colors and indentation.
-- [itunes-remote](https://github.com/mischah/itunes-remote) - Interactively control iTunes.
-- [text-meme](https://github.com/beatfreaker/text-meme-cli) - Generate a text meme.
-- [mobicon](https://github.com/samverschueren/mobicon-cli) - Mobile app icon generator.
-- [mobisplash](https://github.com/samverschueren/mobisplash-cli) - Mobile app splash screen generator.
-- [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli) - Pretty git diff to HTML generator.
-- [Cash](https://github.com/dthree/cash) - Cross-platform Unix shell commands in pure JavaScript.
-- [vaca](https://github.com/sindresorhus/vaca) - Get a random ASCII 🐮.
-- [gh-home](https://github.com/sindresorhus/gh-home) - Open the GitHub page of the repo in the current directory.
-- [npm-home](https://github.com/sindresorhus/npm-home) - Open the npm page of a package.
-- [trymodule](https://github.com/VictorBjelkholm/trymodule) - Try out npm packages in the terminal.
-- [terminal-recorder](https://github.com/cortezcristian/terminal-recorder) - Record your terminal usage and export it to interactive HTML.
-- [jscpd](https://github.com/kucherenko/jscpd) - Copy/paste detector for source code.
-- [atmo](https://github.com/Raathigesh/Atmo) - Server-side API mocking.
-- [auto-install](https://github.com/siddharthkp/auto-install) - Auto installs dependencies as you code.
-- [lessmd](https://github.com/linuxenko/lessmd) - Markdown in the terminal.
-- [cost-of-modules](https://github.com/siddharthkp/cost-of-modules) - Find out which dependencies are slowing you down.
-- [localtunnel](https://github.com/localtunnel/localtunnel) - Expose your localhost to the world.
+- [np](https://github.com/sindresorhus/np) - 更好的npm包发布工具。
+- [trash](https://github.com/sindresorhus/trash) - 更安全的替代rm。
+- [npm-name](https://github.com/sindresorhus/npm-name) - 检查软件包名称是否在npm中可用。
+- [speed-test](https://github.com/sindresorhus/speed-test) - 测试你的网络连接速度和ping。
+- [emoj](https://github.com/sindresorhus/emoj) - 从命令行中找到相关的表情符号。
+- [pageres](https://github.com/sindresorhus/pageres) - 捕获网站截图。
+- [cpy](https://github.com/sindresorhus/cpy) - 复制文件。
+- [vtop](https://github.com/MrRio/vtop) - 命令行的图形活动监视器。
+- [empty-trash](https://github.com/sindresorhus/empty-trash) -倒垃圾。
+- [is-up](https://github.com/sindresorhus/is-up) - 检查一个网站是向上还是向下。
+- [is-online](https://github.com/sindresorhus/is-online) - 检查网络连接是否已经启动。
+- [public-ip](https://github.com/sindresorhus/public-ip) -获取你的公网ip。
+- [clipboard-cli](https://github.com/sindresorhus/clipboard-cli) - 在终端上复制粘贴。
+- [ttystudio](https://github.com/chjj/ttystudio) - 记录您的终端并将其编译为GIF或APNG，无需任何外部依赖，bash脚本，gif级联等。
+- [XO](https://github.com/sindresorhus/xo) - 使用JavaScript幸福风格强制执行严格的代码风格。
+- [Standard](https://github.com/feross/standard) - JavaScript标准样式——一种规则的样式。
+- [ESLint](http://eslint.org) - 为JavaScript提供一个可插入的链接实用工具。
+- [dev-time](https://github.com/samverschueren/dev-time-cli) - 获取GitHub用户当前的本地时间。
+- [David](https://github.com/alanshaw/david) - 告诉您的包npm依赖项已经过时了。
+- [http-server](https://github.com/indexzero/http-server) -简单的，零配置的命令行HTTP服务器。
+- [Live Server](https://github.com/tapio/live-server) - 开发带有实时能力的HTTP服务器。
+- [bcat](https://github.com/kessler/node-bcat) - 管道命令输出到Web浏览器。
+- [normit](https://github.com/pawurb/normit) - 谷歌在你的终端翻译语音合成。
+- [slap](https://github.com/slap-editor/slap) - Sublime-like基于终端文本编辑器。
+- [jsinspect](https://github.com/danielstjules/jsinspect) - 检测复制粘贴和结构相似的代码。
+- [esformatter](https://github.com/millermedeiros/esformatter) - JavaScript代码美化/格式化程序。
+- [fkill](https://github.com/sindresorhus/fkill-cli) - 强制杀死流程(跨平台)。
+- [pjs](https://github.com/danielstjules/pjs) - 快速过滤，映射，并从终端减少
+- [license-checker](https://github.com/davglass/license-checker) - 检查应用程序依赖项的许可证
+- [browser-run](https://github.com/juliangruber/browser-run) - 在浏览器环境中轻松运行代码。
+- [tmpin](https://github.com/sindresorhus/tmpin) - 添加stdin支持任何接受文件输入的CLI应用。
+- [modhelp](https://github.com/runvnc/modhelp) - 在终端的任何npm模块,呈现一个README。
+- [wifi-password](https://github.com/kevva/wifi-password-cli) - 获取当前的wifi密码。
+- [wallpaper](https://github.com/sindresorhus/wallpaper) - 改变桌面墙纸。
+- [brightness](https://github.com/kevva/brightness-cli) - 改变屏幕亮度
+- [torrent](https://github.com/maxogden/torrent) - 下载种子。
+- [tfa](https://github.com/jasnell/tfa) - 双重认证客户端。
+- [rtail](https://github.com/kilianc/rtail) - 使用UNIX管道，以秒为单位输出到浏览器。
+- [kill-tabs](https://github.com/sindresorhus/kill-tabs) - 杀死所有的Chrome标签，以提高性能，减少电池使用，节省内存。
+- [alex](https://github.com/wooorm/alex) - 抓住不敏感,不体贴的写作。
+- [vantage](https://github.com/dthree/vantage) - 用于你生活应用中的分布式的，实时的CLI。
+- [pen](https://github.com/noraesae/pen) - 从您喜欢的编辑器中使用浏览器进行实时的Markdown预览。
+- [subdownloader](https://github.com/beatfreaker/subdownloader) -电影和电视剧的字幕下载器。
+- [dark-mode](https://github.com/sindresorhus/dark-mode) - 切换macOS黑暗模式。
+- [iponmap](https://github.com/nogizhopaboroda/iponmap) - IP位置仪。
+- [Jsome](https://github.com/Javascipt/Jsome) - 漂亮的打印具有可配置的颜色和缩进的JSON。
+- [itunes-remote](https://github.com/mischah/itunes-remote) -交互式地控制iTunes。
+- [text-meme](https://github.com/beatfreaker/text-meme-cli) - 生成一个文本文化基因。
+- [mobicon](https://github.com/samverschueren/mobicon-cli) - 手机应用程序图标生成器。
+- [mobisplash](https://github.com/samverschueren/mobisplash-cli) - 移动应用程序启动屏幕生成器。
+- [diff2html-cli](https://github.com/rtfpessoa/diff2html-cli) - 漂亮的git diff到HTML生成器。
+- [Cash](https://github.com/dthree/cash) - 在纯JavaScript中使用跨平台的Unix shell命令。
+- [vaca](https://github.com/sindresorhus/vaca) - 得到一个随机的ASCII。
+- [gh-home](https://github.com/sindresorhus/gh-home) - 在当前目录中打开repo的GitHub页面。
+- [npm-home](https://github.com/sindresorhus/npm-home) - 打开包的npm页面。
+- [trymodule](https://github.com/VictorBjelkholm/trymodule) - 在终端中尝试npm包。
+- [terminal-recorder](https://github.com/cortezcristian/terminal-recorder) - 记录终端使用情况并将其导出为交互式HTML。
+- [jscpd](https://github.com/kucherenko/jscpd) - 拷贝/粘贴探测器的源代码。
+- [atmo](https://github.com/Raathigesh/Atmo) - 服务器端API模拟器.
+- [auto-install](https://github.com/siddharthkp/auto-install) - 自动安装依赖项作为您的代码。
+- [lessmd](https://github.com/linuxenko/lessmd) - 在终端上写markdrown
+- [cost-of-modules](https://github.com/siddharthkp/cost-of-modules) - 找出哪些依赖会让你慢下来。
+- [localtunnel](https://github.com/localtunnel/localtunnel) - 向世界展示你的本地主机。
 
 
-### Functional programming
+### 函数式编程
 
-- [lodash](https://lodash.com) - Utility library delivering consistency, customization, performance, & extras. A better and faster Underscore.js.
-- [immutable](https://github.com/facebook/immutable-js) - Immutable data collections.
-- [mori](http://swannodette.github.io/mori/) - Library for using ClojureScript's persistent data structures and supporting API from the comfort of vanilla JavaScript.
-- [Ramda](http://ramdajs.com) - Utility library with a focus on flexible functional composition enabled by automatic currying and reversed argument order. Avoids mutating data.
-- [Folktale](http://folktalejs.org) - Suite of libraries for generic functional programming in JavaScript that allows you to write elegant, modular applications with fewer bugs, and more reuse.
+- [lodash](https://lodash.com) - 实用程序库提供一致性、自定义、性能和附加功能。一个更好更快的Underscore.js。
+- [immutable](https://github.com/facebook/immutable-js) - 不可变数据集合。
+- [mori](http://swannodette.github.io/mori/) - 使用ClojureScript持久数据结构的库。
+- [Ramda](http://ramdajs.com) - 一个实用的JavaScript函数库。
+- [Folktale](http://folktalejs.org) - 用于JavaScript的通用函数式编程的库套件，允许您编写优雅的、模块化的应用程序，减少bug，重用更多
 - [underscore-contrib](http://documentcloud.github.io/underscore-contrib/) - The brass buckles on Underscore's utility belt.
 - [Mout](http://moutjs.com) - Utility library with the biggest difference between other existing solutions is that you can choose to load only the modules/functions that you need, no extra overhead.
 - [Bacon.js](http://baconjs.github.io) - Functional reactive programming.
@@ -181,20 +181,20 @@
 
 ### HTTP
 
-- [got](https://github.com/sindresorhus/got) - Nicer interface to the built-in `http` module.
-- [gh-got](https://github.com/sindresorhus/gh-got) - Convenience wrapper for `got` to interact with the GitHub API.
-- [axios](https://github.com/mzabriskie/axios) - Promise based HTTP client (works in the browser too).
-- [request](https://github.com/request/request) - Simplified HTTP request client.
-- [Nock](https://github.com/pgte/nock) - HTTP mocking and expectations library.
-- [spdy](https://github.com/indutny/node-spdy) - Creates SPDY servers with the same API as the built-in `https` module.
-- [wreck](https://github.com/hapijs/wreck) - HTTP Client Utilities.
-- [download](https://github.com/kevva/download) - Download and extract files effortlessly.
-- [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP proxy.
-- [rocky](https://github.com/h2non/rocky) - Featured, middleware-oriented HTTP proxy with traffic replay and intercept.
-- [superagent](https://github.com/visionmedia/superagent) - HTTP request library.
-- [node-fetch](https://github.com/bitinn/node-fetch) - `window.fetch` for Node.js.
-- [flashheart](https://github.com/bbc/flashheart) - REST client.
-- [http-fake-backend](https://github.com/micromata/http-fake-backend) - Build a fake backend by providing the content of JSON files or JavaScript objects through configurable routes.
+- [got](https://github.com/sindresorhus/got) - 对内置http模块的更好的接口。
+- [gh-got](https://github.com/sindresorhus/gh-got) - 与GitHub API交互的便利包装。
+- [axios](https://github.com/mzabriskie/axios) - 基于Promese的HTTP客户端(在浏览器中工作)。
+- [request](https://github.com/request/request) - 简化的HTTP请求的客户端。
+- [Nock](https://github.com/pgte/nock) - HTTP 请求模拟库。
+- [spdy](https://github.com/indutny/node-spdy) - 创建带有与内置https模块相同的API的SPDY服务器。
+- [wreck](https://github.com/hapijs/wreck) -http客户端工具
+- [download](https://github.com/kevva/download) - 轻松下载和提取文件。
+- [http-proxy](https://github.com/nodejitsu/node-http-proxy) - HTTP代理。
+- [rocky](https://github.com/h2non/rocky) - 精选的，面向中间件的HTTP代理与流量重播和拦截。
+- [superagent](https://github.com/visionmedia/superagent) - HTTP请求库。
+- [node-fetch](https://github.com/bitinn/node-fetch) - 基于node的`window.fetch`。
+- [flashheart](https://github.com/bbc/flashheart) - REST客户端.
+- [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置路由提供JSON文件或JavaScript对象的内容，构建一个假后端。
 
 
 ### Debugging / Profiling
@@ -800,7 +800,7 @@
 - [hypernova](https://github.com/airbnb/hypernova) - Server-side rendering your JavaScript views.
 
 
-## Resources
+## 资源
 
 ### Tutorials
 
