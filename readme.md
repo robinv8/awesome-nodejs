@@ -197,18 +197,18 @@
 - [http-fake-backend](https://github.com/micromata/http-fake-backend) - 通过可配置路由提供JSON文件或JavaScript对象的内容，构建一个假后端。
 
 
-### Debugging / Profiling
+### 调试/分析
 
-- [ironNode](https://github.com/s-a/iron-node) - Node.js debugger supporting ES2015 out of the box.
-- [node-inspector](https://github.com/node-inspector/node-inspector) - Debugger based on Blink Developer Tools.
-- [devtool](https://github.com/Jam3/devtool) - Run Node.js programs through Chrome Dev Tools.
-- [Theseus](https://github.com/adobe-research/theseus) - JavaScript debugger featuring real-time code coverage, retroactive inspection and asynchronous call tree.
-- [debug](https://github.com/visionmedia/debug) - Tiny debugging utility.
-- [jstrace](https://github.com/jstrace/jstrace) - Dynamic tracing for JavaScript, similar to dtrace, ktap etc.
-- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - Node.js is running but you don't know why?
-- [njsTrace](https://github.com/valyouw/njstrace) - Instrument and trace your code, see all function calls, arguments, return values, as well as the time spent in each function.
-- [vstream](https://github.com/joyent/node-vstream) - Instrumentable streams mix-ins to inspect a pipeline of streams.
-- [stackman](https://github.com/watson/stackman) - Enhance an error stacktrace with code excerpts and other goodies.
+- [ironNode](https://github.com/s-a/iron-node) - 在linux、windows、osx上，使用chrome开发者工具调试nodejs。
+- [node-inspector](https://github.com/node-inspector/node-inspector) - 基于Blink开发工具的调试器。
+- [devtool](https://github.com/Jam3/devtool) - 通过chrome开发者工具运行nodejs.
+- [Theseus](https://github.com/adobe-research/theseus) - JavaScript调试器具有实时代码覆盖，追溯检查和异步调用树。
+- [debug](https://github.com/visionmedia/debug) - 微小的调试实用程序。
+- [jstrace](https://github.com/jstrace/jstrace) - 动态跟踪JavaScript，类似于dtrace,ktap等。
+- [why-is-node-running](https://github.com/mafintosh/why-is-node-running) - nodejs正在运行，但你不知道为什么?我在这里是为了帮助你。
+- [njsTrace](https://github.com/valyouw/njstrace) - 工具和跟踪您的代码，查看所有函数调用、参数、返回值，以及在每个函数中花费的时间。
+- [vstream](https://github.com/joyent/node-vstream) - 当使用节点流，特别是对象模式流时，能够检查管道通常是有帮助的。
+- [stackman](https://github.com/watson/stackman) -  用代码摘录和其他好东西增强错误堆栈跟踪。
 - [locus](https://github.com/alidavut/locus) - Starts a REPL at runtime that has access to all variables.
 - [bugger](https://github.com/buggerjs/bugger) - Provides Chrome Devtools bindings to debug programs in Chrome.
 - [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
@@ -216,35 +216,35 @@
 - [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
 
 
-### Logging
+### 日志
 
-- [pino](https://github.com/pinojs/pino) - Extremely fast logger inspired by Bunyan.
-- [winston](https://github.com/winstonjs/winston) - Multi-transport async logging library.
-- [Bunyan](https://github.com/trentm/node-bunyan) - JSON logging library.
-- [intel](http://seanmonstar.github.io/intel/) - Logging library (handlers, filters, formatters, console injection).
-- [console-log-level](https://github.com/watson/console-log-level) - The most simple logger imaginable with support for log levels and custom prefixes.
-- [storyboard](https://github.com/guigrpa/storyboard) - End-to-end, hierarchical, real-time, colorful logs and stories.
+- [pino](https://github.com/pinojs/pino) - 极快的json记录器。
+- [winston](https://github.com/winstonjs/winston) - 同步日志库。
+- [Bunyan](https://github.com/trentm/node-bunyan) - json日志库。
+- [intel](http://seanmonstar.github.io/intel/) - 日志库包含处理、过滤、格式化、控制台注入。
+- [console-log-level](https://github.com/watson/console-log-level) - 最简单的日志记录器，支持日志级别和自定义前缀。
+- [storyboard](https://github.com/guigrpa/storyboard) - 端到端的、层次的、实时的、丰富多彩的日志。
 
 
-### Command-line utilities
+### 命令行工具
 
-- [chalk](https://github.com/chalk/chalk) - Terminal string styling done right.
-- [meow](https://github.com/sindresorhus/meow) - CLI app helper.
-- [minimist](https://github.com/substack/minimist) - Parse command-line flags.
-- [get-stdin](https://github.com/sindresorhus/get-stdin) - Easier stdin.
-- [ora](https://github.com/sindresorhus/ora) - Elegant terminal spinner.
-- [log-update](https://github.com/sindresorhus/log-update) - Log by overwriting the previous output in the terminal. Useful for rendering progress bars, animations, etc.
-- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - Interactive command-line prompt.
-- [listr](https://github.com/samverschueren/listr) - Terminal task list.
-- [conf](https://github.com/sindresorhus/conf) - Simple config handling for your app or module.
-- [update-notifier](https://github.com/yeoman/update-notifier) - Update notifications for your CLI app.
-- [ansi-escapes](https://github.com/sindresorhus/ansi-escapes) - ANSI escape codes for manipulating the terminal.
-- [log-symbols](https://github.com/sindresorhus/log-symbols) - Colored symbols for various log levels.
-- [figures](https://github.com/sindresorhus/figures) - Unicode symbols with Windows CMD fallbacks.
-- [boxen](https://github.com/sindresorhus/boxen) - Create boxes in the terminal.
-- [string-width](https://github.com/sindresorhus/string-width) - Get the visual width of a string - the number of columns required to display it.
-- [cli-truncate](https://github.com/sindresorhus/cli-truncate) - Truncate a string to a specific width in the terminal.
-- [first-run](https://github.com/sindresorhus/first-run) - Check if it's the first time the process is run.
+- [chalk](https://github.com/chalk/chalk) - 终端添加各种样式。
+- [meow](https://github.com/sindresorhus/meow) - CLI应用助手。
+- [minimist](https://github.com/substack/minimist) - 解析命令行标记。
+- [get-stdin](https://github.com/sindresorhus/get-stdin) - 更简单的标签。
+- [ora](https://github.com/sindresorhus/ora) - 优雅的终端旋转符号。
+- [log-update](https://github.com/sindresorhus/log-update) - 通过覆盖终端上的前一个输出来记录日志。用于渲染进度条、动画等。
+- [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) - 人性化的命令行提示。
+- [listr](https://github.com/samverschueren/listr) - 终端任务列表。
+- [conf](https://github.com/sindresorhus/conf) - 对你的app或者模块进行简单的配置处理。
+- [update-notifier](https://github.com/yeoman/update-notifier) - 对CLI应用程序的更新通知。
+- [ansi-escapes](https://github.com/sindresorhus/ansi-escapes) - 用于操纵终端的ANSI转义码。
+- [log-symbols](https://github.com/sindresorhus/log-symbols) - 不同日志级别的颜色符号。
+- [figures](https://github.com/sindresorhus/figures) - Windows CMD只支持有限的字符集。
+- [boxen](https://github.com/sindresorhus/boxen) - 在终端上创建框。
+- [string-width](https://github.com/sindresorhus/string-width) - 获取字符串的可视宽度——显示该字符串所需的列数。
+- [cli-truncate](https://github.com/sindresorhus/cli-truncate) - 将字符串截断到终端的特定宽度。
+- [first-run](https://github.com/sindresorhus/first-run) - 检查流程是否第一次运行。
 - [vorpal](https://github.com/dthree/vorpal) - Interactive CLI apps.
 - [blessed](https://github.com/chjj/blessed) - Curses-like library.
 - [yn](https://github.com/sindresorhus/yn) - Parse yes/no like values.
