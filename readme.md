@@ -213,7 +213,7 @@
 - [bugger](https://github.com/buggerjs/bugger) - Provides Chrome Devtools bindings to debug programs in Chrome.
 - [0x](https://github.com/davidmarkclements/0x) - Flamegraph profiling.
 - [ctrace](https://github.com/automation-stack/ctrace) - Well-formatted and improved trace system calls and signals.
-- [leakage](https://github.com/andywer/leakage) - Write memory leak tests.
+- [leakage](https://github.com/andywer/leakage) - 编写内存泄漏测试。
 
 
 ### 日志
@@ -245,38 +245,34 @@
 - [string-width](https://github.com/sindresorhus/string-width) - 获取字符串的可视宽度——显示该字符串所需的列数。
 - [cli-truncate](https://github.com/sindresorhus/cli-truncate) - 将字符串截断到终端的特定宽度。
 - [first-run](https://github.com/sindresorhus/first-run) - 检查流程是否第一次运行。
-- [vorpal](https://github.com/dthree/vorpal) - Interactive CLI apps.
-- [blessed](https://github.com/chjj/blessed) - Curses-like library.
-- [yn](https://github.com/sindresorhus/yn) - Parse yes/no like values.
-- [cli-table](https://github.com/Automattic/cli-table) - Pretty unicode tables.
-- [drawille](https://github.com/madbence/node-drawille) - Draw on the terminal with unicode braille characters.
-- [sudo-block](https://github.com/sindresorhus/sudo-block) - Block users from running your app with root permissions.
-- [googleauth](https://github.com/maxogden/googleauth) - Create and load persistent Google authentication tokens for command-line apps.
-- [ascii-charts](https://github.com/jstrace/chart) - ASCII bar chart in the terminal.
-- [progress](https://github.com/tj/node-progress) - Flexible ascii progress bar.
-- [insight](https://github.com/yeoman/insight) - Helps you understand how your tool is being used by anonymously reporting usage metrics to Google Analytics.
-- [cli-cursor](https://github.com/sindresorhus/cli-cursor) - Toggle the CLI cursor.
+- [vorpal](https://github.com/dthree/vorpal) - 交互式CLI应用程序。
+- [blessed](https://github.com/chjj/blessed) - node的高级终端接口库。
+- [cli-table](https://github.com/Automattic/cli-table) - 这个工具允许你从的nodejs的命令行上呈现unicode辅助表。
+- [drawille](https://github.com/madbence/node-drawille) - 用unicode盲文字符在终端上绘制图案。
+- [sudo-block](https://github.com/sindresorhus/sudo-block) - 阻止用户使用root权限运行您的应用程序。
+- [googleauth](https://github.com/maxogden/googleauth) - 为命令行应用程序创建和加载持久的谷歌身份验证令牌。
+- [insight](https://github.com/yeoman/insight) - 帮助您了解如何将您的工具匿名地向谷歌分析报告使用指标。
 - [columnify](https://github.com/timoxley/columnify) - Create text-based columns suitable for console output. Supports cell wrapping.
 - [cli-columns](https://github.com/shannonmoeller/cli-columns) - Columnated unicode and ansi-safe text lists.
-- [cfonts](https://github.com/dominikwilkowski/cfonts) - Sexy ASCII fonts for the console.
+- [cfonts](https://github.com/dominikwilkowski/cfonts) - 控制台的性感字体。
 - [multispinner](https://github.com/codekirei/node-multispinner) - Multiple, simultaneous, individually controllable CLI spinners.
-- [omelette](https://github.com/f/omelette) - Shell autocompletion helper.
-- [cross-env](https://github.com/kentcdodds/cross-env) - Set environment variables cross-platform.
+- [omelette](https://github.com/f/omelette) - Shell自动完成助手。
+- [cross-env](https://github.com/kentcdodds/cross-env) - 设置跨平台的环境变量。
 - [shelljs](https://github.com/shelljs/shelljs) - Portable Unix shell commands.
 - [loud-rejection](https://github.com/sindresorhus/loud-rejection) - Make unhandled promise rejections fail loudly instead of the default silent fail.
-- [sparkly](https://github.com/sindresorhus/sparkly) - Generate sparklines ▁▂▃▅▂▇
-- [term-img](https://github.com/sindresorhus/term-img) - Display images in your terminal.
+- [sparkly](https://github.com/sindresorhus/sparkly) - 生成走势图。▁▂▃▅▂▇
+- [term-img](https://github.com/sindresorhus/term-img) - 在你的终端上显示图案。
 - [yargs](https://github.com/yargs/yargs) - Command-line parser that automatically generates an elegant user-interface.
 - [DraftLog](https://github.com/ivanseidel/node-draftlog) - Create multiple updatable log lines. Works just like `console.log`.
 - [Bit](https://github.com/teambit/bit) - Create, maintain, find and use small modules and components across repositories.
-- [gradient-string](https://github.com/bokub/gradient-string) - Beautiful color gradients in terminal output.
+- [gradient-string](https://github.com/bokub/gradient-string) - 在终端上输出漂亮的渐变色。
 
 
 ### Build tools
 
-- [webpack](https://github.com/webpack/webpack) - Packs modules and assets for the browser.
-- [rollup](https://github.com/rollup/rollup) - Next-generation ES2015 module bundler.
-- [gulp](http://gulpjs.com) - Streaming and fast build system that favors code over config.
+- [webpack](https://github.com/webpack/webpack) - 为浏览器打包模块和资源。
+- [rollup](https://github.com/rollup/rollup) - 下一代es2015模块捆绑器。
+- [gulp](http://gulpjs.com) - 在开发工作流程中自动化痛苦或耗时的任务。
 - [browserify](https://github.com/substack/node-browserify) - Browser-side require() the Node.js way.
 - [Broccoli](https://github.com/broccolijs/broccoli) - Fast, reliable asset pipeline, supporting constant-time rebuilds and compact build definitions.
 - [Brunch](https://github.com/brunch/brunch) - Front-end web app build tool with simple declarative config, fast incremental compilation, and an opinionated workflow.
